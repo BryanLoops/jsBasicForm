@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">
+    <script defer src="/js/rscript.js"></script>
+    <title>Register</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Register</h1>
+        </div>
+        <form id="form" class="form" action="/" method="GET">
+        <div class="form-control">
+            <input type="text" id="username" name="username" placeholder="Username">
+            <div class="error" id="error"></div>
+        </div>
+        <div class="form-control">
+            <input type="email" id="email" name="email" placeholder="email@domain.com">
+            <div class="mailerror" id="mailerror"></div>
+        </div>
+        <div class="form-control">
+            <input type="password" id="password" name="password" placeholder="Password">
+            <div class="pwderror" id="pwderror"></div>
+        </div>
+        <div class="form-control">
+            <input type="password" id="passwordcheck" name="passwordcheck" placeholder="Check Password">
+            <div class="pwderror" id="pwderror"></div>
+            <div class="pwderror2" id="pwderror2"></div>
+        </div>
+        <div class="form-control">       
+            <button>Submit</button>
+        </div>
+        <div class="footer">
+            <p>Already a member? <a href="index.html">Login!</a></p>
+        </div>
+    </form>
+    </div>
+</body>
+</html>
